@@ -1,0 +1,5 @@
+image: dockerfile/nodejs
+name: ci-example
+script:
+  - npm install
+  - npm test
